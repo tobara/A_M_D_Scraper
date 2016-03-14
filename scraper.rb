@@ -11,11 +11,11 @@
 #   validates :url, uniqueness: true
 
 class Profile
-require 'Mechanize'
-require 'Nokogiri'
+require 'mechanize'
+require 'nokogiri'
 require 'csv'
 require 'pry'
-require 'scraperwiki'
+
 # require 'socksify'
 # TCPSocket::socks_server = "127.0.0.1"
 # TCPSocket::socks_port = 9050
